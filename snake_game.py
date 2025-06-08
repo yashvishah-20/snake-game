@@ -121,7 +121,7 @@ def gameloop():
                     hiscore = score
 
             gameWindow.fill(yellow)  # Yellow background for gameplay
-            text_screen("Score: " + str(score) + "  Hiscore: " + str(hiscore), red, 5, 5)
+            text_screen("Score: " + str(score) + "  Highscore: " + str(hiscore), red, 5, 5)
             pygame.draw.rect(gameWindow, red, [food_x, food_y, snake_size, snake_size])
 
             head = [snake_x, snake_y]
